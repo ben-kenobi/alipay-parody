@@ -321,7 +321,8 @@
             make.width.equalTo(self.sv);
         }];
         lastiv=iv ;
-        [iv sd_setImageWithURL:iURL(_ads[i][@"image"]) placeholderImage:0 options:0 progress:0 completed:0];
+//        [iv sd_setImageWithURL:iURL(_ads[i][@"image"]) placeholderImage:0 options:0 progress:0 completed:0];
+        [iv sd_setImageWithURL:iURL(_ads[i]) placeholderImage:0 options:0 progress:0 completed:0];
     }
     [lastiv mas_updateConstraints:^(MASConstraintMaker *make) {
         make.right.equalTo(@0);

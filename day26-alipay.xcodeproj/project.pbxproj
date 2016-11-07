@@ -203,7 +203,7 @@
 		185F9C121BE06F1A00C6269C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185F9C131BE06F1A00C6269C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185F9C1E1BE06F1A00C6269C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		185F9C271BE06F1A00C6269C /* day26-alipayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day26-alipayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185F9C271BE06F1A00C6269C /* alipay.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alipay.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185F9C2C1BE06F1A00C6269C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185F9C2D1BE06F1A00C6269C /* day26_alipayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = day26_alipayTests.m; sourceTree = "<group>"; };
 		18686B591BE877C40036F3A2 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
@@ -581,7 +581,7 @@
 			isa = PBXGroup;
 			children = (
 				185F9C0E1BE06F1A00C6269C /* alipay.app */,
-				185F9C271BE06F1A00C6269C /* day26-alipayTests.xctest */,
+				185F9C271BE06F1A00C6269C /* alipay.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -802,7 +802,7 @@
 			);
 			name = "day26-alipayTests";
 			productName = "day26-alipayTests";
-			productReference = 185F9C271BE06F1A00C6269C /* day26-alipayTests.xctest */;
+			productReference = 185F9C271BE06F1A00C6269C /* alipay.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1106,8 +1106,8 @@
 				);
 				INFOPLIST_FILE = "day26-alipayTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day26-alipay.app/day26-alipay";
+				PRODUCT_NAME = alipay;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alipay.app/alipay";
 			};
 			name = Debug;
 		};
@@ -1122,8 +1122,8 @@
 				);
 				INFOPLIST_FILE = "day26-alipayTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day26-alipay.app/day26-alipay";
+				PRODUCT_NAME = alipay;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alipay.app/alipay";
 			};
 			name = Release;
 		};
