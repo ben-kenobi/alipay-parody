@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>支付宝</string>
+		<key>clz</key>
+		<string>YFHomeVC</string>
+		<key>icon</key>
+		<string>TabBar_HomeBar</string>
+	</dict>
+	<dict>
+		<key>clz</key>
+		<string>YFServiceVC02</string>
+		<key>title</key>
+		<string>服务窗</string>
+		<key>icon</key>
+		<string>TabBar_PublicService</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>发现</string>
+		<key>clz</key>
+		<string>YFDIscVC</string>
+		<key>pname</key>
+		<string>http://localhost/resources/disc.json</string>
+		<key>icon</key>
+		<string>TabBar_Discovery</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>财富</string>
+		<key>clz</key>
+		<string>YFAssetVC</string>
+		<key>icon</key>
+		<string>TabBar_Assets</string>
+		<key>pname</key>
+		<string>asset.plist</string>
+	</dict>
+</array>
+</plist>

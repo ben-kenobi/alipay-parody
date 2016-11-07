@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>红包</string>
+		<key>img</key>
+		<string>adw_icon_apcoupon_normal</string>
+		<key>vc</key>
+		<string>YFBasicVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>行程单</string>
+		<key>img</key>
+		<string>adw_icon_travel_normal</string>
+		<key>vc</key>
+		<string>YFBasicVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>电子券</string>
+		<key>img</key>
+		<string>adw_icon_coupon_normal</string>
+		<key>vc</key>
+		<string>YFBasicVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>会员卡</string>
+		<key>img</key>
+		<string>adw_icon_membercard_normal</string>
+		<key>vc</key>
+		<string>YFBasicVC</string>
+	</dict>
+</array>
+</plist>
